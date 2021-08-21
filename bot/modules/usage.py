@@ -67,6 +67,8 @@ def dyno_usage(update, context):
                 f"• <code>{AppHours}</code> <b>Hours and</b> <code>{AppMinutes}</code> <b>Minutes - {AppPercent}%</b>\n\n"
                 "<b>Dyno Remaining this month :</b>\n"
                 f"• <code>{hours}</code> <b>Hours and</b> <code>{minutes}</code> <b>Minutes - {quota_percent}%</b>",
+                "<b>Estimated Dyno Expired:</b>\n"
+                f"• <code>{day}</code> <b>Days</b>"
                 context.bot,
                 update
             )
